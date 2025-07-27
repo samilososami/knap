@@ -51,7 +51,7 @@ Gracias a esto se pueden mostrar los nombres de los fabricantes al lado de cada 
 ```
 python3 knap.py -i <interfaz> -oui oui.txt
 ```
-El archivo `oui.txt` se puede descargar desde [aquí](https://standards-oui.ieee.org/oui/oui.txt)
+El archivo `oui.txt` se incluye en el repositorio, pero también se puede descargar desde [aquí](https://standards-oui.ieee.org/oui/oui.txt)
 
 # Vectores de ataque
 Tras ejecutar el ataque y enumerar las essids que buscan los dispositivos, se puede crear un captive portal o cualquier tipo de hotspot de forma que el dispositvo que busca la red se conecte automáticamente, se puede ejecutar un ataque Man In The Middle o se puede simplemente tratar de enumerar y comprometer el dispositivo conectado. Las posibilidades son casi ilimitadas :')
